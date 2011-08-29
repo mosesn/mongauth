@@ -55,3 +55,6 @@ Authenticates a user/password pair.  Returns true if it finds that your username
 
 ### obliterate(self)
 Forgets all of your user information.  Really all of it.  Probably should not be exposed to end-users.  Mostly used for testing.  Will throw an OperationError if it runs into network issues.
+
+##TODO
+Add to pip/easy_install
