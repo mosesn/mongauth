@@ -10,7 +10,7 @@ py-bcrypt
 pymongo (just need a collection, Mongauth doesn't actually ever import pymongo)
 
 ##How to use
-'''python
+```python
 from mongauth import Mongauth
 from pymongo import Connection
 collection = Connection().awesomedb.supercollection
@@ -24,7 +24,7 @@ auth.destroy("username","password") #oh, I guess it's you.
 auth.new("username","password") #recreating your account
 auth.new("username","password") #you can't do that, you're already in the db!
 auth.admin_destroy("username") #I guess you were causing trouble.
-'''
+```
 
 ##Test
 Assumes you have a non-password protected mongod running locally, and that your mongauth db's test collection is empty.
