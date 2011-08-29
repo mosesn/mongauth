@@ -5,6 +5,13 @@ PyMongo + Authentication
 Super simple.
 Super fun.
 
+##Installation
+if you have pip:
+   pip install mongauth
+else:
+   download source from https://github.com/mnn2104/mongauth and run:
+`python setup.py install`
+
 ##Dependencies
 py-bcrypt
 pymongo (just need a collection, Mongauth doesn't actually ever import pymongo)
