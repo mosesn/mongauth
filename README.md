@@ -63,11 +63,8 @@ Authenticates a user/password pair.  Returns true if it finds that your username
 ### obliterate(self)
 Forgets all of your user information.  Really all of it.  Probably should not be exposed to end-users.  Mostly used for testing.  Will throw an OperationError if it runs into network issues.
 
-##TODO
-Check whether python3 is supported.
-
 ##FAQ
 Q:  
 Do you support python3?
 A:  
-I don't think so.  pymongo depends upon python2, and it hasn't been tested with the python3 branch of pymongo.
+Not until bcrypt is ported over to python 3.
