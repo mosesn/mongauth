@@ -65,6 +65,6 @@ Forgets all of your user information.  Really all of it.  Probably should not be
 
 ##FAQ
 Q:  
-Do you support python3?
+Do you support python3?  
 A:  
 Not until bcrypt is ported over to python 3.
