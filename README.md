@@ -26,7 +26,7 @@ auth = Mongauth(collection) #making the mongauth object
 auth.new("username","password") #creating your account
 auth.auth("username","passowrd") #oops you made a typo 
 auth.auth("username","password") #there you go
-auth.destroy("username","penis") #someone is trying to delete your account!
+auth.destroy("username","not_real_password") #someone is trying to delete your account!
 auth.destroy("username","password") #oh, I guess it's you.
 auth.new("username","password") #recreating your account
 auth.new("username","password") #you can't do that, you're already in the db!
